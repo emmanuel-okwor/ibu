@@ -418,7 +418,6 @@ swiper-slide img {
 /* Extra small devices (phones, 0px and up) */
 @media (max-width: 575px) { 
   nav{
-    margin-top: 14%;
     background-color:white;
     position: fixed;
     top: 0;
@@ -428,13 +427,9 @@ swiper-slide img {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    padding-top: 25%;
     margin: 0 auto;
     align-items: center;
-  }
-
-  .okay{
-    background-color:white;
-    margin: 35vh auto;
   }
 
   .slider-container{
@@ -588,10 +583,6 @@ swiper-slide img {
   color: white;
  }
 
- .slider-child img{
-  height:fit-content;
-}
- 
 }
 
 
@@ -600,17 +591,8 @@ swiper-slide img {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 575px) and (max-width: 991.98px) { 
-   .class {
-    display:column;
-    align-items: center;
-    justify-content: center;
-    font: 20px sans-serif;
-    align-items: center;
-    justify-content: space-around;
-  }
-
   nav{
-    margin-top: 11%;
+    margin-top: 8%;
     background-color:white;
     position: fixed;
     top: 0;
@@ -817,7 +799,7 @@ swiper-slide img {
    }
 
    .okay{
-    background-color: #0000ff;
+    background-color:white;
     margin: 56vh auto;
   }
 
